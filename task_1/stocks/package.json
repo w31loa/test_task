@@ -3,7 +3,7 @@
   "main": "index.ts",
   "scripts": {
     "start": "rimraf dist && npx tsc && node dist/src/index.js",
-    "migrate": "prisma migrate dev"
+    "migrate": "npx prisma migrate dev"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",

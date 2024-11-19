@@ -2,9 +2,9 @@
   "type": "module",
   "main": "./src/index.ts",
   "scripts": {
-    "start": "node /src/index.js",
+    "start": "node ./src/index.js",
     "dev": "nodemon ./src/index.js",
-    "migrate": "prisma migrate dev"
+    "migrate": "npx prisma migrate dev"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
