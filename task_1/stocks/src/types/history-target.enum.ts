@@ -1,0 +1,4 @@
+export enum HISTORY_TARGET_ENUM {
+  PRODUCT = 'PRODUCT',
+  STOCK = 'STOCK',
+}

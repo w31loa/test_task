@@ -1,0 +1,4 @@
+export enum STOCK_CHANGE_ENUM {
+  INCREASE = 'INCREASE',
+  DECREASE = 'DECREASE',
+}

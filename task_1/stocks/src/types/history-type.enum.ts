@@ -1,0 +1,4 @@
+export enum HISTORY_TYPE_ENUM {
+  UPDATE = 'UPDATE',
+  CREATE = 'CREATE',
+}

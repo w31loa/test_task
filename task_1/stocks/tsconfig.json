@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "baseUrl": "src",
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+    },
+    "include": [
+        "src/**/*.ts",
+        "prisma/**/*"
+    ],
+    "exclude": [
+        "build",
+        "coverage",
+        "docs",
+        "logs",
+        "node_modules",
+        "public",
+        "__test__"
+    ]
+}
